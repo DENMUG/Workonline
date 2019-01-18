@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    tools:context="com.thealteria.loginapp.Page1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- <android.support.v7.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="?attr/colorPrimary"
+             app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_term" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/rlay"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="ASIAWRITERS"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" 1. We are a professional writing service providing online writing jobs for talented freelance writers who want to get writer jobs. \n 2. Online writing jobs that can be taken by a freelance writer anywhere and at any time. \n 3. Each freelance writer can take orders on their own schedule and choose the subjects up to their interest among a wide variety of writing assignments. \n 4. We guarantee our freelance writers bonuses for their writer employment. \n 5. Our freelance writers have great career opportunities and a constant flow of orders to perform each day. \n 6. Reliable 24/7 support for freelance writers. \n 7. Freelance writing opportunities for experienced and talented freelance writers in India, China, Pakistan and throughout Asia."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="How it Works:"
+                android:textColor="#de521f"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" 1. Sign Up. \n 2. Take Order. \n 3. Get Paid."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Payment:"
+                android:textColor="#de521f"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Once you have completed some orders with Asia Writers you will recieve payment twice a month via: \n  1. Skrill. \n 2. Payoneer. \n 3. Wire Transfer. \n 4. Paypal."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewf1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Job Categories:"
+                android:textColor="#de521f"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Not limited to: \n  1. Academic writing. \n 2. Resume writing. \n 3. Translation. \n 4. Copywriting. "
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.ASIAWRITERS.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="4WRITERS"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" 4Writers.net is an online freelance writing service with over 10 years of experience providing freelance writing opportunities to dedicated and committed writers worldwide.If you are a skilful writer looking for an opportunity to have a stable income, then do not waste your time - start writing and earning already today! Make use of the opportunity we provide and benefit from a big number of different orders available daily."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.4WRITERS.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="UVOCORP"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" UVOCORP is a reliable partner for professional freelance writers who are looking for a trustworthy long-term cooperation. For those pursuing personal development, our company is also the right choice since we offer numerous interesting projects and opportunities for self-improvement. Besides, our support team members are always ready to help as they work 24/7.If writing is what you like, you are welcome to give it a try with us! "
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.UVOCORP.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="FREELANCER"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" It's easy. Simply post a job you need completed and receive competitive bids from freelancers within minutes.Whatever your needs, there will be a freelancer to get it done: from web design, mobile app development, virtual assistants, product manufacturing, and graphic design (and a whole lot more).With secure payments and thousands of reviewed professionals to choose from, Freelancer.com is the simplest and safest way to get work done online."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.FREELANCER.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="FIVERR"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" Use Fiverr search and side filters, to find the right freelancer for your project. Once you've found a service you'd like to order, click the Gig. Choosing the right freelancer is easy: "
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.FIVERR.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- <TextView
+             android:id="@+id/showAll"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textColor="#000"
+             android:textSize="25sp" />-->
+    </ScrollView>
+
+
+</RelativeLayout>

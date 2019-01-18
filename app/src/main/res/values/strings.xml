@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Work Online - Jobs and Quick Money</string>
+    <string name="banner_home_footer">ca-app-pub-4235756897396648/1931222756</string>
+    <string name="interstitial_full_screen">ca-app-pub-4235756897396648/3629927203</string>
+    <string name="hello">All Loans are Payable in 2 months time. All Loans Request should not exceed 5000. Loan Request Exceeding 5000 shall not be acted upon. Thanks and Spend Wisely!!!   !</string>
+    <string name="title_activity_term">TermActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">GET STARTED</string>
+    <string name="dummy_content">GET STARTED</string>
+</resources>

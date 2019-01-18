@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    tools:context="com.thealteria.loginapp.Page5">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- <android.support.v7.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="?attr/colorPrimary"
+             app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/rlay"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="MONEYME"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="MoneyMe is an online lender providing personal loans to Australians looking for short-term cash solutions. The application process is fully online with no fees, paperwork or long waiting periods. Filling in the online form usually takes around five minutes and your loan amount can be deposited into your account within a few hours once approved, or within the hour if you bank with Commonwealth Bank.
+
+While approval is quick, MoneyMe will only grant loans for the amount you can afford to repay. The loan’s cost structure depends on MoneyMe’s assessment of your finances. The better your credit rating, the lower the fees and rates associated with your loan.."
+
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.MONEYME.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="TALA"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" Instant Loans to your M-Pesa
+Apply anywhere, anytime
+Get approved in seconds
+Loans up to 50,000KSh"
+
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.TALA.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="ELOAN"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" Get a personal loan that meets your needs
+At Eloan we care about cybersecurity and the safety of sensitive information.
+Learn more about preventative measures against phishing attacks."
+
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.ELOAN.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="AMERICAN WEB LOAN"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" YOUR LOAN IN YOUR PHONE
+Manage your current loan
+
+Apply for a new loan
+
+Get help using live chat"
+
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.AMERICAN.WEB.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

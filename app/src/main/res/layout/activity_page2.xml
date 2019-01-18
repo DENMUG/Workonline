@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    tools:context="com.thealteria.loginapp.Page2">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- <android.support.v7.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="?attr/colorPrimary"
+             app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<include
+        layout="@layout/content_term"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/rlay"
+            android:clickable="true"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="CODEABLE"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" We take care of your WordPress tasks, so you can focus on what you're good at.
+Be it a custom WooCommerce shop (we are their official partners) or any other type of WordPress based solution - we have helped over 10,000 businesses like yours.
+With a spotless track record.
+
+Projects we work on every day include:
+Customize WordPress themes and plugins
+All things maintenance (e.g. optimizations, adjustments, security)
+Full stack WP development
+Creating websites from scratch - design to completion"
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.CODEABLE.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="GURU"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" What is Git? Git is a fast distributed revision control system. What is in this article? This article is designed to be understandable by windows user or someone with basic UNIX command-line skills, but no previous knowledge of Git. It’s an introductory video which elaborate the basic commands of Git.  Repositories and branches and exploring"
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.GURU.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="CREW"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="CodeCrew is a leading nonprofit for technology and computer science education for youth across Memphis. Use our website to help support computer science education programs and learn options to donate and explore our volunteer, career, and partnership opportunities."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.CREW.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="GIGSTER"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" Gigster is the world’s engineering department.
+Software is an essential tool for every business in the world, yet most don’t have access to quality development at a reasonable cost. We aim to put a software development team in everyone’s pocket.
+
+Businesses with access to custom software have thousands of times more leverage than those without. We believe that by democratizing access to great software we can increase the pace of human evolution.
+
+The nature of work is changing and we are at the forefront of this seismic shift. Every year, tens of millions of people enter the freelance workforce. Who will they work for? What tools will multiply their efficiency?
+
+We are building the largest network of exceptional developers, designers, and product managers and augmenting them with data, artificial intelligence, and a rich working environment."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.GIGSTER.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="UPWORKS"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" Easily find quality freelancers
+On Upwork you’ll find a range of top talent, from programmers to designers, writers, customer support reps, and more.
+
+Start by posting a job. Tell us about your project and the specific skills required. Learn how.
+Upwork analyzes your needs. Our search functionality uses data science to highlight freelancers based on their skills, helping you find talent that’s a good match.
+We send you a shortlist of likely candidates. You can also search our site for talent, and freelancers can view your job and submit proposals too."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.UPWORKS.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

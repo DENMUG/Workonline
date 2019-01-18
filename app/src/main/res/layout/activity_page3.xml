@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    tools:context="com.thealteria.loginapp.Page3">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <!-- <android.support.v7.widget.Toolbar
+             android:id="@+id/toolbar"
+             android:layout_width="match_parent"
+             android:layout_height="?attr/actionBarSize"
+             android:background="?attr/colorPrimary"
+             app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/rlay"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="MARKETING"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" Online marketing
+The internet has transformed business marketing. No matter what you do, the internet is likely to be at the heart of your marketing strategy.
+Online marketing - overview
+How to market your business online - from your website to advertising, content marketing, search engine optimisation, email marketing and more."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.MARKETING.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="CLICKBANK"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text=" For more than 20 years, ClickBank has delivered lifestyle products to customers around the globe. Each of our unique products is created by a passionate entrepreneur focused on improving the lives of our customers by inspiring, instructing, or coaching.
+
+As one of the largest online retailers, ClickBank harnesses the awesome power of our digital marketing partners combined with a vast library of over 6 million unique products in order to reach 200 million customers around the world. We are committed to featuring products that satisfy our customers and providing entrepreneurs with the right tools and resources they need to create, publish and market their products in order to grow their business."
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.CLICKBANK.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="YOUTUBE"
+                android:textColor="#de521f"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="We believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and build community through our stories.
+
+Our values are based on four essential freedoms that define who we are.
+Freedom of Expression
+We believe people should be able to speak freely, share opinions, foster open dialogue, and that creative freedom leads to new voices, formats and possibilities.
+
+Freedom of Information
+We believe everyone should have easy, open access to information and that video is a powerful force for education, building understanding, and documenting world events, big and small.
+
+Freedom of Opportunity
+We believe everyone should have a chance to be discovered, build a business and succeed on their own terms, and that people—not gatekeepers—decide what’s popular.
+
+Freedom to Belong
+We believe everyone should be able to find communities of support, break down barriers, transcend borders and come together around shared interests and passions. "
+                android:textColor="#0d0d0d"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="340dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/btnstyle"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="WWW.YOUTUBE.COM"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+
+
+
+
+        </LinearLayout>
+
+</ScrollView>
+    </RelativeLayout>
